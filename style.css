@@ -1,0 +1,222 @@
+div {
+  border-radius:50%;
+  height:2px; width:2px; /* To allow border-radius to work */
+  position:absolute;
+  top:50%; left:50%;
+  margin-top:-1px; margin-left:-3px;
+-webkit-box-shadow:
+    -75px -125px 0 40px #6cce74,
+     75px -125px 0 40px #c18d46,
+    150px    0px 0 40px #c14745,
+     75px  125px 0 40px #2e1e5b,
+    -75px  125px 0 40px #9c37a6,
+   -150px    0px 0 40px #76bdd1;
+  box-shadow:
+    -75px -125px 0 40px #6cce74,
+     75px -125px 0 40px #c18d46,
+    150px    0px 0 40px #c14745,
+     75px  125px 0 40px #2e1e5b,
+    -75px  125px 0 40px #9c37a6,
+   -150px    0px 0 40px #76bdd1;
+  -webkit-animation:rotate 8s infinite ease-in-out;
+  animation:rotate 8s infinite ease-in-out;
+}
+@keyframes rotate {
+  16.67% {
+   -webkit-box-shadow:
+	-75px -125px 0 40px #76bdd1,
+       75px -125px 0 40px #6cce74,
+      150px    0px 0 40px #c18d46,
+       75px  125px 0 40px #c14745,
+      -75px  125px 0 40px #2e1e5b,
+     -150px    0px 0 40px #9c37a6;
+    box-shadow:
+      -75px -125px 0 40px #76bdd1,
+       75px -125px 0 40px #6cce74,
+      150px    0px 0 40px #c18d46,
+       75px  125px 0 40px #c14745,
+      -75px  125px 0 40px #2e1e5b,
+     -150px    0px 0 40px #9c37a6;
+  }
+  33.33%   { 
+  -webkit-box-shadow:
+      -75px -125px 0 40px #9c37a6,
+       75px -125px 0 40px #76bdd1,
+      150px    0px 0 40px #6cce74,
+       75px  125px 0 40px #c18d46,
+      -75px  125px 0 40px #c14745,
+     -150px    0px 0 40px #2e1e5b;
+    box-shadow:
+      -75px -125px 0 40px #9c37a6,
+       75px -125px 0 40px #76bdd1,
+      150px    0px 0 40px #6cce74,
+       75px  125px 0 40px #c18d46,
+      -75px  125px 0 40px #c14745,
+     -150px    0px 0 40px #2e1e5b;
+  }
+  50%      { 
+   -webkit-box-shadow:
+      -75px -125px 0 40px #2e1e5b,
+       75px -125px 0 40px #9c37a6,
+      150px    0px 0 40px #76bdd1,
+       75px  125px 0 40px #6cce74,
+      -75px  125px 0 40px #c18d46,
+     -150px    0px 0 40px #c14745;
+    box-shadow:
+      -75px -125px 0 40px #2e1e5b,
+       75px -125px 0 40px #9c37a6,
+      150px    0px 0 40px #76bdd1,
+       75px  125px 0 40px #6cce74,
+      -75px  125px 0 40px #c18d46,
+     -150px    0px 0 40px #c14745;
+  }
+  66.67%   {
+-webkit-box-shadow:
+      -75px -125px 0 40px #c14745,
+       75px -125px 0 40px #2e1e5b,
+      150px    0px 0 40px #9c37a6,
+       75px  125px 0 40px #76bdd1,
+      -75px  125px 0 40px #6cce74,
+     -150px    0px 0 40px #c18d46;  
+    box-shadow:
+      -75px -125px 0 40px #c14745,
+       75px -125px 0 40px #2e1e5b,
+      150px    0px 0 40px #9c37a6,
+       75px  125px 0 40px #76bdd1,
+      -75px  125px 0 40px #6cce74,
+     -150px    0px 0 40px #c18d46;
+  }
+  88.88%   { 
+ -webkit-box-shadow:
+      -75px -125px 0 40px #c18d46,
+       75px -125px 0 40px #c14745,
+      150px    0px 0 40px #2e1e5b,
+       75px  125px 0 40px #9c37a6,
+      -75px  125px 0 40px #76bdd1,
+     -150px    0px 0 40px #6cce74;
+    box-shadow:
+      -75px -125px 0 40px #c18d46,
+       75px -125px 0 40px #c14745,
+      150px    0px 0 40px #2e1e5b,
+       75px  125px 0 40px #9c37a6,
+      -75px  125px 0 40px #76bdd1,
+     -150px    0px 0 40px #6cce74;
+  }
+  100% {
+    -webkit-transform:rotate(-360deg);
+            transform:rotate(-360deg);
+    -webkit-box-shadow:
+      -75px -125px 0 40px #6cce74,
+       75px -125px 0 40px #c18d46,
+      150px    0px 0 40px #c14745,
+       75px  125px 0 40px #2e1e5b,
+      -75px  125px 0 40px #9c37a6,
+     -150px    0px 0 40px #76bdd1;
+            box-shadow:
+      -75px -125px 0 40px #6cce74,
+       75px -125px 0 40px #c18d46,
+      150px    0px 0 40px #c14745,
+       75px  125px 0 40px #2e1e5b,
+      -75px  125px 0 40px #9c37a6,
+     -150px    0px 0 40px #76bdd1;
+  }
+}
+@-webkit-keyframes rotate {
+  16.67% {
+    -webkit-box-shadow:
+      -75px -125px 0 40px #76bdd1,
+       75px -125px 0 40px #6cce74,
+      150px    0px 0 40px #c18d46,
+       75px  125px 0 40px #c14745,
+      -75px  125px 0 40px #2e1e5b,
+     -150px    0px 0 40px #9c37a6;
+            box-shadow:
+      -75px -125px 0 40px #76bdd1,
+       75px -125px 0 40px #6cce74,
+      150px    0px 0 40px #c18d46,
+       75px  125px 0 40px #c14745,
+      -75px  125px 0 40px #2e1e5b,
+     -150px    0px 0 40px #9c37a6;
+  }
+  33.33%   { 
+    -webkit-box-shadow:
+      -75px -125px 0 40px #9c37a6,
+       75px -125px 0 40px #76bdd1,
+      150px    0px 0 40px #6cce74,
+       75px  125px 0 40px #c18d46,
+      -75px  125px 0 40px #c14745,
+     -150px    0px 0 40px #2e1e5b; 
+            box-shadow:
+      -75px -125px 0 40px #9c37a6,
+       75px -125px 0 40px #76bdd1,
+      150px    0px 0 40px #6cce74,
+       75px  125px 0 40px #c18d46,
+      -75px  125px 0 40px #c14745,
+     -150px    0px 0 40px #2e1e5b;
+  }
+  50%      { 
+    -webkit-box-shadow:
+      -75px -125px 0 40px #2e1e5b,
+       75px -125px 0 40px #9c37a6,
+      150px    0px 0 40px #76bdd1,
+       75px  125px 0 40px #6cce74,
+      -75px  125px 0 40px #c18d46,
+     -150px    0px 0 40px #c14745; 
+            box-shadow:
+      -75px -125px 0 40px #2e1e5b,
+       75px -125px 0 40px #9c37a6,
+      150px    0px 0 40px #76bdd1,
+       75px  125px 0 40px #6cce74,
+      -75px  125px 0 40px #c18d46,
+     -150px    0px 0 40px #c14745;
+  }
+  66.67%   { 
+    -webkit-box-shadow:
+      -75px -125px 0 40px #c14745,
+       75px -125px 0 40px #2e1e5b,
+      150px    0px 0 40px #9c37a6,
+       75px  125px 0 40px #76bdd1,
+      -75px  125px 0 40px #6cce74,
+     -150px    0px 0 40px #c18d46; 
+            box-shadow:
+      -75px -125px 0 40px #c14745,
+       75px -125px 0 40px #2e1e5b,
+      150px    0px 0 40px #9c37a6,
+       75px  125px 0 40px #76bdd1,
+      -75px  125px 0 40px #6cce74,
+     -150px    0px 0 40px #c18d46;
+  }
+  88.88%   { 
+    -webkit-box-shadow:
+      -75px -125px 0 40px #c18d46,
+       75px -125px 0 40px #c14745,
+      150px    0px 0 40px #2e1e5b,
+       75px  125px 0 40px #9c37a6,
+      -75px  125px 0 40px #76bdd1,
+     -150px    0px 0 40px #6cce74; 
+            box-shadow:
+      -75px -125px 0 40px #c18d46,
+       75px -125px 0 40px #c14745,
+      150px    0px 0 40px #2e1e5b,
+       75px  125px 0 40px #9c37a6,
+      -75px  125px 0 40px #76bdd1,
+     -150px    0px 0 40px #6cce74;
+  }
+  100% {
+    -webkit-transform:rotate(-360deg);
+    -webkit-box-shadow:
+      -75px -125px 0 40px #6cce74,
+       75px -125px 0 40px #c18d46,
+      150px    0px 0 40px #c14745,
+       75px  125px 0 40px #2e1e5b,
+      -75px  125px 0 40px #9c37a6,
+     -150px    0px 0 40px #76bdd1;
+      box-shadow:
+      -75px -125px 0 40px #6cce74,
+       75px -125px 0 40px #c18d46,
+      150px    0px 0 40px #c14745,
+       75px  125px 0 40px #2e1e5b,
+      -75px  125px 0 40px #9c37a6,
+     -150px    0px 0 40px #76bdd1;
+  }
+}
